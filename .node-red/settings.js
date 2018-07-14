@@ -33,6 +33,8 @@ module.exports = {
     // Retry time in milliseconds for Serial port connections
     serialReconnectTime: 15000,
 
+    credentialSecret: process.env.ENCRYPTION_KEY || false,
+
     // Retry time in milliseconds for TCP socket connections
     //socketReconnectTime: 10000,
 
@@ -130,7 +132,7 @@ module.exports = {
     // The following property can be used to disable the editor. The admin API
     // is not affected by this option. To disable both the editor and the admin
     // API, use either the httpRoot or httpAdminRoot properties
-    disableEditor: false,
+    disableEditor: !process.env.ENABLE_EDITOR,
 
     // The following property can be used to configure cross-origin resource sharing
     // in the HTTP nodes.

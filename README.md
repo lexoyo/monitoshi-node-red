@@ -53,6 +53,8 @@ Requirements
 * EMAIL_SERVER
 * EMAIL_USER
 * EMAIL_PASS
+* ENCRYPTION_KEY
+* ENABLE_EDITOR
 
 ### Routes
 
