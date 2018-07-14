@@ -50,6 +50,9 @@ Requirements
 * MONGODB_PASS
 * MONGODB_NAME
 * APP_URL
+* EMAIL_SERVER
+* EMAIL_USER
+* EMAIL_PASS
 
 ### Routes
 
