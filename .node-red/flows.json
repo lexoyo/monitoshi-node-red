@@ -146,7 +146,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "\"Your webesite \" & msg.payload.url & \" is now monitored. Click here to delete it: https://app.monitoshi.com/delete/?url=\" & msg.payload.url & \"&email=\" & msg.payload.email ",
+                "to": "\"Your webesite \" & msg.payload.url & \" is now monitored. Click here to delete it: $(APP_URL)delete/?url=\" & msg.payload.url & \"&email=\" & msg.payload.email ",
                 "tot": "jsonata"
             }
         ],
@@ -645,7 +645,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "\"Your webesite \" & msg.item.url & \" is now \" &  msg.newState & \". Click here to delete it: https://app.monitoshi.com/monitors/delete?url=\" & msg.item.url & \"&email=\" & msg.item.email",
+                "to": "\"Your webesite \" & msg.item.url & \" is now \" &  msg.newState & \". Click here to delete it: $(APP_URL)/delete?url=\" & msg.item.url & \"&email=\" & msg.item.email",
                 "tot": "jsonata"
             }
         ],
@@ -876,7 +876,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "\"Your webesite \" & msg.payload.url & \" is not monitored anymore. Click here to recreate it: https://app.monitoshi.com/create/?url=\" & msg.payload.url & \"&email=\" & msg.payload.email ",
+                "to": "\"Your webesite \" & msg.payload.url & \" is not monitored anymore. Click here to recreate it: $(APP_URL)create/?url=\" & msg.payload.url & \"&email=\" & msg.payload.email ",
                 "tot": "jsonata"
             }
         ],

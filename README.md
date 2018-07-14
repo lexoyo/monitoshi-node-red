@@ -49,6 +49,7 @@ Requirements
 * MONGODB_USER
 * MONGODB_PASS
 * MONGODB_NAME
+* APP_URL
 
 ### Routes
 
