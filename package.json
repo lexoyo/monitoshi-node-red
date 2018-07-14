@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "name": "Monitoshi-node-red",
+  "description": "Website uptime monitoring",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "scripts": {
+    "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red",
+    "postinstall": "scripts/postinstall.sh"
+  },
+  "dependencies": {
+    "node-red": "*",
+    "node-red-admin": "*",
+    "node-red-node-mongodb": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lexoyo/monitoshi-node-red"
+  },
+  "keywords": [
+    "express",
+    "monitoring",
+    "uptime",
+    "rest",
+    "api"
+  ],
+  "license": "GPL"
+}

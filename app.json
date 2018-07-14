@@ -1,0 +1,13 @@
+{
+  "name": "Monitoshi (node-red)",
+  "description": "Website uptime monitoring",
+  "repository": "https://github.com/lexoyo/monitoshi-node-red",
+  "keywords": [
+    "express",
+    "monitoring",
+    "uptime",
+    "rest",
+    "api"
+  ],
+  "image": "heroku/nodejs"
+}
