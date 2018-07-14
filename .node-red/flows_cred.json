@@ -1,0 +1,14 @@
+{
+    "7258349d.f9fb1c": {
+      "userid": "$(EMAIL_USER)",
+      "password": "$(EMAIL_PASS)",
+    },
+    "281f9e84.4807f2": {
+      "userid": "$(EMAIL_USER)",
+      "password": "$(EMAIL_PASS)",
+    },
+    "694e33ed.1eae4c": {
+      "userid": "$(EMAIL_USER)",
+      "password": "$(EMAIL_PASS)",
+    }
+}

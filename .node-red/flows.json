@@ -26,7 +26,7 @@
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "10",
         "x": 170,
         "y": 340,
         "wires": [
@@ -778,7 +778,7 @@
         "type": "debug",
         "z": "fc2c94c0.07f82",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
