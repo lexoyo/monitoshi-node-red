@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "node-red --settings ./.node-red/settings.js --userDir ./.node-red",
-    "postinstall": "scripts/postinstall.sh"
+    "postinstall": "scripts/postinstall.sh",
+    "start:local": "MONGODB_HOST=127.0.0.1 MONGODB_PORT=27017 MONGODB_USER= MONGODB_PASS= npm start"
   },
   "dependencies": {
     "node-red": "*",

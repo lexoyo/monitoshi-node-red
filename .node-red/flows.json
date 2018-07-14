@@ -246,7 +246,7 @@
         "name": "find",
         "collection": "monitors",
         "operation": "find",
-        "x": 280,
+        "x": 370,
         "y": 160,
         "wires": [
             [
@@ -287,7 +287,7 @@
         "to": "",
         "reg": false,
         "x": 400,
-        "y": 120,
+        "y": 100,
         "wires": [
             [
                 "c237ad70.38c3e8"
@@ -303,8 +303,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
-        "x": 770,
+        "complete": "true",
+        "x": 750,
         "y": 60,
         "wires": []
     },
@@ -319,7 +319,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 670,
+        "x": 760,
         "y": 160,
         "wires": []
     },
@@ -334,8 +334,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 760,
-        "y": 120,
+        "x": 550,
+        "y": 160,
         "wires": [
             [
                 "1af45b92.51df4c",
