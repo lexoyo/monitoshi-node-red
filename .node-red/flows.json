@@ -12,7 +12,7 @@
         "z": "",
         "hostname": "$(MONGODB_HOST)",
         "port": "$(MONGODB_PORT)",
-        "db": "monitoshi",
+        "db": "$(MONGODB_NAME)",
         "name": "env vars"
     },
     {
